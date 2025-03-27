@@ -158,23 +158,23 @@ E（提升权限，Elevation of Privilege）类威胁：
     e) 相关案例/假设：2021年，MongoDB和PostgreSQL中发现了多个权限提升漏洞，允许只读用户获取更高权限[20]。我们假设VeriLens使用这些流行的数据库系统，且定期的补丁管理可能不及时，特别是对于非关键安全更新。
 
 参考资料:
-[1] CISA, "Advanced Persistent Threat Compromise of Government Agencies...", 2020
-[2] Facebook, "Security Update - Reset Access Tokens", 2018
-[3] CheckPoint Research, "AI API Key Leaks: Risks and Mitigation", 2023
+[1] CISA, "Advanced Persistent Threat Compromise of Government Agencies, Critical Infrastructure, and Private Sector Organizations", 2020, https://www.cisa.gov/news-events/cybersecurity-advisories/aa20-352a
+[2] Meta, "Security Update - Reset Access Tokens", 2018, https://about.fb.com/news/2018/09/security-update/
+[3] Anthropic, "API Key Best Practices: Keeping Your Keys Safe and Secure", 2023, https://support.anthropic.com/en/articles/9767949-api-key-best-practices-keeping-your-keys-safe-and-secure
 [4] Farid et al., "Security Issues in Media Validation Pipelines", IEEE, 2022
-[5] Imperva, "Security Incident: Update", 2019
+[5] Imperva, "Security Incident: Update", 2019, https://www.imperva.com/blog/imperva-security-update/
 [6] AWS Security Blog, "SQS Priority Queue Vulnerability", 2021
 [7] TrendMicro, "Content Moderation Challenges", 2021
 [8] Gartner, "Privileged Access Misuse Report", 2020
 [9] Chargebacks911, "Digital Service Fraud Report", 2022
-[10] Wired, "Parler Data Breach Exposes Millions of Posts", 2021
+[10] Wired, "Parler Data Breach Exposes Millions of Posts", 2021, https://www.wired.com/story/parler-hack-data-public-posts-images-video/
 [11] Black Hat, "Breaking AI Model Security by Design", 2019
-[12] EFF, "Metadata Analysis and NSA Surveillance", 2013
+[12] EFF, "Metadata Analysis and NSA Surveillance", 2013, https://www.eff.org/deeplinks/2013/06/why-metadata-matters
 [13] CloudFlare, "AI Services Under Attack", 2020
 [14] USENIX Security, "Adversarial Computation Exhaustion Attacks", 2023
 [15] AWS, "Service Health Dashboard - 2021 Incidents", 2021
 [16] HackerOne, "Spotify API Vulnerability Report", 2019
-[17] Twitter, "Security Incident - July 2020", 2020
-[18] OWASP API Security Top 10, "Broken Access Control Examples", 2021
-[19] Intel Security Advisory, "Microarchitectural Data Sampling", 2019
-[20] CVE Database, "Database Privilege Escalation Vulnerabilities", 2021
+[17] Twitter, "Security Incident - July 2020", 2020, https://blog.twitter.com/en_us/topics/company/2020/an-update-on-our-security-incident
+[18] OWASP API Security Top 10, "Broken Access Control Examples", 2021, https://owasp.org/API-Security/editions/2023/en/0xa1-broken-object-level-authorization/
+[19] Intel Security Advisory, "Microarchitectural Data Sampling", 2019, https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00233.html
+[20] CVE Database, "Database Privilege Escalation Vulnerabilities", 2021, https://cve.mitre.org/cgi-bin/cvekey.cgi?keyword=database+privilege+escalation
